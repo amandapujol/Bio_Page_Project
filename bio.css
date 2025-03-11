@@ -24,9 +24,12 @@ h1 {
         margin-top: 10px;
         }
 .bio, .projects {
-        margin-bottom: 20px;
-        display:flex-center;
-        justify-content: space-evenly;
+    display: block;  
+    margin: 10px 0; 
+    padding: 10px;   
+    background-color: #e7f3ff; 
+    border: 1px solid #007bff; 
+    border-radius: 5px; 
         }
 a {
         color: #333;
@@ -49,11 +52,3 @@ a:hover {
     height: auto; 
 }
 
-p {
-    display: block;  
-            margin: 10px 0; 
-            padding: 10px;   
-            background-color: #e7f3ff; 
-            border: 1px solid #007bff; 
-            border-radius: 5px; 
-}
