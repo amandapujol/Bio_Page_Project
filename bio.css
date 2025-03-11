@@ -50,7 +50,10 @@ a:hover {
 }
 
 p {
-    display: flex; 
-    align-items: center;
-    padding: 20px;
+    display: block;  
+            margin: 10px 0; 
+            padding: 10px;   
+            background-color: #e7f3ff; 
+            border: 1px solid #007bff; 
+            border-radius: 5px; 
 }
