@@ -1,58 +1,69 @@
-html {
-    text-align: center;
-}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     padding: 20px;
     background-color: #f4f4f4;
     text-align: center;
-    }
+}
 
 header {
     text-align: center;
     margin-bottom: 20px;
-    }
+}
 
 .profile-img {
     width: 300px;
     height: auto;
-    }
+}
+
 h1 {
-        margin-top: 10px;
-        }
-.bio, .projects {
-    display: block;  
-    margin: 10px 0; 
-    padding: 10px;   
-    background-color: #f4f3f5a4; 
-    border: 1px solid #ad89cd; 
-    border-radius: 5px; 
+    margin-top: 10px;
+}
+
+.bio,
+.projects {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f4f3f5a4;
+    border: 1px solid #ad89cd;
+    border-radius: 5px;
     text-align: center;
-        }
+}
+
+.projects ul {
+    list-style-position: inside; /* Moves the bullet points inside the text area */
+    padding-left: 0; /* Removes the default padding */
+}
+
+.projects li {
+    text-align: left; /* Aligns text of list items to the left */
+}
+
 a {
-        color: #333;
-        text-decoration: none;
-        }
+    color: #333;
+    text-decoration: none;
+}
+
 footer {
-        text-align: center;
-        margin-top: 20px;
-        }
+    text-align: center;
+    margin-top: 20px;
+}
 
 a:hover {
     text-decoration: underline;
 }
 
 .profile-img {
-    border: 2px solid black; 
-    border-radius: 10px; 
-    padding: 5px; 
-    max-width: 100%; 
-    height: auto; 
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
 }
-
