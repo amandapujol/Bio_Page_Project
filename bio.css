@@ -52,7 +52,7 @@ h1 {
 }
 
 .projects li {
-    text-align: left; /* Aligns text of list items to the left */
+    text-align: center; 
 }
 
 /* Link Styles */
