@@ -20,12 +20,12 @@ header {
 
 /* Profile Image Styles */
 .profile-img {
-    width: 300px;
+    width: 300px; /* Default width */
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Ensure responsive behavior */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Headings */
@@ -68,4 +68,25 @@ a:hover {
 /* Footer Styles */
 footer {
     margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .profile-img {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 300px; /* Maintain the max width */
+    }
+
+    .bio,
+    .projects {
+        padding: 15px; /* More padding on small devices */
+    }
+
+    h1, h2 {
+        font-size: 1.5em; /* Adjust font size */
+    }
+
+    p {
+        font-size: 1em; /* Adjust paragraph font size */
+    }
 }
