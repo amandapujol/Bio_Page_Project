@@ -38,7 +38,7 @@ h1 {
 .projects {
     margin: 10px 0;
     padding: 10px;
-    background-color: rgba(244, 243, 245, 0.65); /* Using rgba for slight transparency */
+    background-color: rgba(244, 243, 245, 0.65); 
     border: 1px solid #ad89cd;
     border-radius: 5px;
     text-align: center;
@@ -46,8 +46,8 @@ h1 {
 
 /* Projects List Styles */
 .projects ul {
-    list-style-position: inside; /* Moves the bullet points inside the text area */
-    padding-left: 0; /* Removes the default padding */
+    list-style-position: inside; 
+    padding-left: 0; 
     text-align: center;
 }
 
