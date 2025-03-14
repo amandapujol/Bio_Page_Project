@@ -48,6 +48,7 @@ h1 {
 .projects ul {
     list-style-position: inside; /* Moves the bullet points inside the text area */
     padding-left: 0; /* Removes the default padding */
+    text-align: center;
 }
 
 .projects li {
